@@ -1,4 +1,4 @@
-@import
+@import compass
 // clearfix
 .clearfix
   display: inline-block
@@ -17,6 +17,7 @@
 $resumeBg: #fff
 
 $myBlue: #0198E1
+$myBlue2: #017de1
 $myGreen: #608341
 $myOrange: #FF6103
 $myPink: #B5509C
@@ -80,8 +81,6 @@ a
       &.top
         padding-top: 30px
         padding-bottom: 15px
-        &:hover img
-          +filter(grayscale(0%))
     .logoCont
       float: left
       width: 15%
@@ -91,7 +90,6 @@ a
         min-width: 50px
         height: auto
         min-height: 50px
-        +filter(grayscale(100%))
         +border-radius(2px)
         border: solid 1px darken($resumeBg, 20%)
     h1
@@ -444,4 +442,3 @@ ul.buttons
       color: #ccc
       &:hover
         color: #fff
-    
