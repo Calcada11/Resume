@@ -17,7 +17,7 @@
 $resumeBg: #fff
 
 $myBlue: #0198E1
-$myBlue2: #017de1
+$myGray2: #808080
 $myGreen: #608341
 $myOrange: #FF6103
 $myPink: #B5509C
@@ -96,7 +96,7 @@ a
       width: 45%
       float: left
       display: inline-block
-      font-family: 'Playfair Display', serif
+      font-family: Trebuchet MS, sans-serif
       margin: -6px 0 0 0
       font-size: 40px
       line-height: 40px
@@ -139,7 +139,7 @@ a
         float: right
         display: inline-block
         font-size: 16px
-        background: invert($resumeBg)
+        background: $myGray2
         color: $resumeBg
         padding: 6px 8px
         min-width: 120px
